@@ -2,8 +2,12 @@
 Solution to lyft's challenge for new / recent grads.
 
 ## How to Run
-- `ruby lyft_challenge.rb Lat1,Lng1 Lat2,Lng2 Lat3,Lng3 Lat4,Lng4`
-- Example input: `ruby lyft_challenge.rb 63.1,62.1 61.2,63.1 100.1,100.2, 100.9,101.3`
+- `ruby lyft_challenge.rb Lat1,Lng1 Lat2,Lng2 Lat3,Lng3 Lat4,Lng4` (Correspond to A,A B,B C,C D,D)
+- Example input: 
+```
+ruby lyft_challenge.rb 63.1,62.1 61.2,63.1 100.1,100.2, 100.9,101.3
+```
+
 - Each location must be seperated by comma's due to splitting on strings from input of the command line
 
 ## Sample Output
