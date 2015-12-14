@@ -1,5 +1,9 @@
 # lyft_challenge
-Solution to lyft's challenge for new / recent grads.
+- Solution to lyft's challenge for new / recent grads.
+- Assumes that:
+  1. Pickup/dropoff time are all the same 
+  2. That every driver is travelling the same speed
+  3. It takes both drivers the same time to pick up & let off at the same speed
 
 ## How to Run
 - `ruby lyft_challenge.rb Lat1,Lng1 Lat2,Lng2 Lat3,Lng3 Lat4,Lng4` (Correspond to A,A B,B C,C D,D)
